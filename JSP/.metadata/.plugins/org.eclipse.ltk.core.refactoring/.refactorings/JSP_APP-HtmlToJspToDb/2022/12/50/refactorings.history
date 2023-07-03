@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;error.jsp&apos; to &apos;pages&apos;&#x0D;&#x0A;- Original project: &apos;JSP_APP-HtmlToJspToDb&apos;&#x0D;&#x0A;- Destination element: &apos;pages&apos;&#x0D;&#x0A;- Original element: &apos;error.jsp&apos;" description="Copy file" element1="WebContent/WEB-INF/pages/error.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1670388298883" target="/JSP_APP-HtmlToJspToDb/WebContent/WEB-INF/pages" units="0" version="1.0"/>
+</session>

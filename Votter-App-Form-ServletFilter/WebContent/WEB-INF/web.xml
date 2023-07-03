@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+	<welcome-file-list>
+		<welcome-file>homeurl</welcome-file> <!-- configuring servlet as welcome file -->
+		<welcome-file>form1.html</welcome-file>
+		<welcome-file>form.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>Voter</servlet-name>
+		<servlet-class>com.ab.servlet.VoterServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Voter</servlet-name>
+		<url-pattern>/voterUrl</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- configuring servlet as welcome file -->
+	
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>com.ab.servlet.HomePageServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/homeurl</url-pattern>
+	</servlet-mapping>
+	<!-- configure filter on home url -->
+	<filter>
+		<filter-name>browser</filter-name>
+		<filter-class>com.ab.filters.BrowserCheckingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>browser</filter-name>
+		<url-pattern>/homeurl</url-pattern>
+		<!-- <url-pattern>/*</url-pattern> for every request -->
+	</filter-mapping>
+	
+</web-app>

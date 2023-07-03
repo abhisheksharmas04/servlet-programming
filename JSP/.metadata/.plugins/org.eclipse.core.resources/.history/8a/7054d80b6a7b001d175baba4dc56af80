@@ -1,0 +1,29 @@
+package com.ab.config;
+
+import java.time.LocalDateTime;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.Scope;
+
+@Configuration
+               // step-4 go to @ComponentScan and takes the packages  
+@ComponentScan(basePackages = "com.ab") // alternate to <contex:component-scan/>
+@PropertySource(value="com/ab/comons/appProp.properties")
+public class AppConfig { // step-3 loads and creates the object of Configuration class
+	
+	@Bean(name = "ldt")
+	@Scope("prototype")
+	public LocalDateTime createLocalDateTime() { // step--6 this method will execute
+		/*this will create the object of LocalDateTime and injection takes place in @Component class @Autowired annotation*/
+		System.out.println("AppConfig.createLocalDateTime()");
+		/*we are froced to create spring bean class object and return to that object and
+		@Bean takes the object and return it as a spring bean*/
+		return LocalDateTime.now();
+		
+		/*This method is called automatically if the bean scope is single ton*/
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.ab.utility;
+
+public class Snippet {
+	public static void main(String[] args) {
+		secretKey.getBytes()
+	}
+}
+

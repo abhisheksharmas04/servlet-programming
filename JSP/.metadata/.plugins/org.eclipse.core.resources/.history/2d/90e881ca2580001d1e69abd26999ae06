@@ -1,0 +1,23 @@
+package com.ab.test;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.ab.bean.Cricketer;
+
+public class LookUpInjection {
+	public static void main(String[] args) {
+		// create IOC
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("com/ab/cfg/applicationContext.xml");
+		System.out.println("TraditionalDependencyLookUpTest.main() Second IOC container creation");
+		// get target spring bean class object
+		Cricketer cricketer = ctx.getBean("cktr", Cricketer.class);
+		
+		// invoke business method
+		cricketer.fielding();
+		cricketer.bowling();
+		cricketer.batting();
+		
+		ctx.close();
+
+	}
+}

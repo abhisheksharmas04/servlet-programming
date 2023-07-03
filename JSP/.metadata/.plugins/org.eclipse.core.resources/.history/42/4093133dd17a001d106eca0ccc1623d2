@@ -1,0 +1,10 @@
+package com.ab.test;
+
+import com.ab.utility.JwtUtil;
+
+public class App {
+	public static void main(String[] args) {
+		String token = JwtUtil.generateToken("5435AA","RAJA","123456");
+		System.out.println("Key: " + token);
+	}
+}

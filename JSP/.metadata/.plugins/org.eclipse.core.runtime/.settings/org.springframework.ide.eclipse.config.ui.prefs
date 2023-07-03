@@ -1,0 +1,10 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/Aware-Injection-Dependency-lookup/src/main/java/com/ab/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOC-SpringBeanLifeCycle-AnnotationApproach/src/main/java/com/ab/springlifecycle/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOC-SpringBeanLifeCycle-DeclarativeApproach/src/main/java/com/ab/springlifecycle/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOC-SpringBeanLifeCycle-ProgramaticApproach/src/main/java/com/ab/springlifecycle/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/LookupMethod-Injection/src/main/java/com/ab/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/LookupMethod-InjectionAnnotationDriven/src/main/java/com/ab/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/Spring-Dependency-lookup/src/main/java/com/ab/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/Spring-JavaConfiguration-BasicConfiguration/src/main/java/com/ab/cfg/applicationContex.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/Spring-JavaConfiguration-BasicConfiguration/src/main/java/com/ab/cfg/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

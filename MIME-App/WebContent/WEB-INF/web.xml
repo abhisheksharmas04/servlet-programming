@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>MIME-App</display-name>
+	<servlet>
+		<servlet-name>html</servlet-name>
+		<servlet-class>com.abhi.mime.HttpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>html</servlet-name>
+		<url-pattern>/htmlurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>excel</servlet-name>
+		<servlet-class>com.abhi.mime.ExcelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>excel</servlet-name>
+		<url-pattern>/excelurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>plain</servlet-name>
+		<servlet-class>com.abhi.mime.PlainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>plain</servlet-name>
+		<url-pattern>/plainurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Word</servlet-name>
+		<servlet-class>com.abhi.mime.WordServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Word</servlet-name>
+		<url-pattern>/Wordurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Xml</servlet-name>
+		<servlet-class>com.abhi.mime.XmlServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Xml</servlet-name>
+		<url-pattern>/Xmlurl</url-pattern>
+	</servlet-mapping>
+
+</web-app>

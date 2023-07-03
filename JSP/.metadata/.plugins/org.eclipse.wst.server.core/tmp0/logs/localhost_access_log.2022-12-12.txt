@@ -1,0 +1,7 @@
+127.0.0.1 - - [12/Dec/2022:10:20:36 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Dec/2022:10:20:37 +0530] "GET /JSP-ActionForward-Use-Case/ HTTP/1.1" 200 521
+0:0:0:0:0:0:0:1 - - [12/Dec/2022:10:21:09 +0530] "GET /JSP-ActionForward-Use-Case/ HTTP/1.1" 200 533
+0:0:0:0:0:0:0:1 - - [12/Dec/2022:10:21:18 +0530] "POST /JSP-ActionForward-Use-Case/billing.jsp HTTP/1.1" 500 2566
+127.0.0.1 - - [12/Dec/2022:10:22:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Dec/2022:10:22:41 +0530] "GET /JSP-ActionForward-Use-Case/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2022:10:22:51 +0530] "POST /JSP-ActionForward-Use-Case/billing.jsp HTTP/1.1" 500 2566

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Mime-APp-servlet-life-cycle&apos;" deleteContents="true" description="Delete resource &apos;Mime-APp-servlet-life-cycle&apos;" element1="/Mime-APp-servlet-life-cycle" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1668663826071"/>
+</session>

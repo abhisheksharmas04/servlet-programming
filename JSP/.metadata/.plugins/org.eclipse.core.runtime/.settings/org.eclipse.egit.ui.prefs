@@ -1,0 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Aware-Injection</message>\r\n<message>Looup injection</message>\r\n<message>Annotation Approach</message>\r\n<message>Look-up-method injection 100% code</message>\r\n<message>configuration file added</message>\r\n<message>Traditional Lookup</message>\r\n<message>Annotation Driven spring life cycle</message>\r\n<message>Programmatic (implementing InitializingBean, DisposableBean (I) )&\#x0A;approach</message>\r\n<message>Declarative Approach (using XML) of Spring bean life cycle</message>\r\n<message>JSP first App</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300
